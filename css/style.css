@@ -6,7 +6,10 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
 }
+
+
 
 a{
   text-decoration: none;
@@ -84,9 +87,6 @@ a{
 /* end stile nav bar sup */
 
 /* stile nav bar inf */
-.nav-inf{
-  background-color: lightgreen;
-}
 
 .nav-logo{
   display: inline-block;
@@ -106,4 +106,36 @@ a{
 
 .nav-section li{
   margin-left: 15px;
+}
+
+.hero{
+  height: 580px;
+  background-color: #fdf1ef;
+  background-image: url('../img/jumbotron.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 100% -2px;
+}
+
+.hero-dim{
+  width: 75%;
+  margin: auto;
+}
+
+.hero-title{
+  width: 50%;
+  padding-top: 40px;
+}
+
+.hero-title h1{
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.hero-title p{
+  line-height: 20px;
+}
+
+.hero-title .btn{
+  margin: 20px 0;
 }
