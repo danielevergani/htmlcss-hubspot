@@ -239,6 +239,10 @@ header ul{
   margin-top: 25px;;
 }
 
+.cmr-text li{
+  display: inline-block;
+}
+
 #services i{
   color: #f37559;
 }
@@ -247,9 +251,25 @@ header ul{
 
 /* sezione colonne */
 
+.row{
+  margin-top: 30px;
+}
+
 .col{
   width: calc((100% / 3) - (40px / 3));
   float: left;
+  background-color: white;
+  text-align: center;
+  padding: 15px 33px;
+  box-shadow:  2px  2px 5px #dedede,
+  -2px -2px 5px #dedede,
+  2px -2px 5px #dedede,
+  -2px  2px 5px #dedede;
+  border-radius: 5px;
+}
+
+nav{
+  text-align: left;
 }
 
 .col:not(:last-child){
@@ -258,4 +278,20 @@ header ul{
 
 .col img{
   width: 30%;
+  height: 100px;
+}
+
+.col hr{
+  border: 1px solid black;
+  width: 70%;
+}
+
+
+.col h4{
+  margin: 30px 0;
+}
+
+.col ul{
+  list-style-type: none;
+  margin-bottom: 30px;
 }
