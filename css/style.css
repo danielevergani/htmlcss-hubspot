@@ -10,6 +10,12 @@ body{
   color: #33475b;
 }
 
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
 /* typo */
 
 h1{
@@ -17,8 +23,14 @@ h1{
   margin-bottom: 20px;
 }
 
+h3{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
 p{
   line-height: 20px;
+  margin-bottom: 20px;
 }
 
 /* typo */
@@ -142,7 +154,7 @@ a{
 }
 
 .hero-title .btn{
-  margin: 20px 0;
+  margin-bottom: 20px;
 }
 
 /* end sezione hero */
@@ -157,6 +169,7 @@ a{
 
 /* sezione servizi */
 
+/* titolo servizi */
 #services{
   background-color: #f4f9fd;
 }
@@ -180,4 +193,53 @@ a{
 
 .services-title h2{
   margin-bottom: 25px;
+}
+
+/* titolo servizi */
+
+/* sezione cmr */
+
+.services-cmr{
+  background-color: white;
+  border-radius: 5px;
+  padding: 39px 0;
+  box-shadow:  2px  2px 5px #dedede,
+  -2px -2px 5px #dedede,
+  2px -2px 5px #dedede,
+  -2px  2px 5px #dedede;
+}
+
+.cmr-logo {
+  text-align: center;
+  float: left;
+  width: 30%;
+}
+
+.cmr-logo img{
+  width: 120px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.cmr-text{
+  float:left;
+  width: 50%;
+}
+
+.cmr-text hr{
+  margin-left: 30px;
+  border-bottom: 2px solid black;
+  width: 300px;
+}
+
+.cmr-text h4, hr{
+  display: inline-block;
+}
+
+.cmr-text nav{
+  margin-top: 25px;;
+}
+
+#services i{
+  color: #f37559;
 }
