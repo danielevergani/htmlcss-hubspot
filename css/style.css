@@ -7,3 +7,16 @@
 body{
   font-family: 'Montserrat', sans-serif;
 }
+
+.nav-sup{
+  height: 100px;
+  background-color: #f4f9fd;
+  border-bottom: 1px solid black;
+}
+
+.nav-dim{
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  background-color: green;
+}
