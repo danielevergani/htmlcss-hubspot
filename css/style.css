@@ -8,15 +8,73 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* bottoni */
+.btn{
+  display: inline-block;
+  color: #f37559;
+  background-color: white;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #f37559;
+  padding: 10px 8px;
+}
+
+.btn-important{
+  padding: 20px;
+  border: none;
+}
+
+.btn-red{
+  background-color: #f37559;
+  color: white;
+  border: none;
+}
+
+/* end bottoni */
+
 .nav-sup{
-  height: 100px;
   background-color: #f4f9fd;
+  padding: 20px 0;
   border-bottom: 1px solid black;
 }
 
 .nav-dim{
-  width: 80%;
+  width: 75%;
   margin: auto;
-  height: 100%;
-  background-color: green;
+}
+
+.nav-leng ul,li{
+  display: inline-block;
+}
+
+.nav-leng{
+  width: 30%;
+  display: inline-block;
+}
+
+.nav-leng li{
+  margin-right: 10px;
+}
+
+.nav-leng  a{
+  border-left: 1px solid black;
+  padding-left: 15px;;
+}
+
+.nav-login{
+  width: 69%;
+  display: inline-block;
+}
+
+.nav-login ul{
+  text-align: right;
+}
+
+.nav-login li{
+  margin-left: 20px;
 }
