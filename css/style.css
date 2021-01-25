@@ -7,9 +7,21 @@
 body{
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
+  color: #33475b;
 }
 
+/* typo */
 
+h1{
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+p{
+  line-height: 20px;
+}
+
+/* typo */
 
 a{
   text-decoration: none;
@@ -24,7 +36,7 @@ a{
   text-align: center;
   border-radius: 5px;
   border: 1px solid #f37559;
-  padding: 10px 8px;
+  padding: 5px 8px;
 }
 
 .btn-important{
@@ -107,7 +119,9 @@ a{
 .nav-section li{
   margin-left: 15px;
 }
+/* end stile nav bar inf */
 
+/* sezione hero */
 .hero{
   height: 580px;
   background-color: #fdf1ef;
@@ -127,15 +141,14 @@ a{
   padding-top: 40px;
 }
 
-.hero-title h1{
-  font-size: 34px;
-  margin-bottom: 20px;
-}
-
-.hero-title p{
-  line-height: 20px;
-}
-
 .hero-title .btn{
   margin: 20px 0;
+}
+
+/* end sezione hero */
+
+.divisore{
+  background-color: #afebe4;
+  height: 85px;
+  border-bottom: 3px solid black;
 }
