@@ -77,8 +77,14 @@ a{
   margin: auto;
 }
 
-.nav-leng ul,li{
+header li{
   display: inline-block;
+  text-align: right;
+}
+
+header ul{
+  display: inline-block;
+
 }
 
 .nav-leng{
@@ -98,9 +104,6 @@ a{
 .nav-login{
   width: 69%;
   display: inline-block;
-}
-
-.nav-login ul{
   text-align: right;
 }
 
@@ -122,9 +125,6 @@ a{
   display: inline-block;
   width: 69%;
   vertical-align: super;
-}
-
-.nav-section ul{
   text-align: right;
 }
 
@@ -177,7 +177,6 @@ a{
 .services-dim{
   width: 75%;
   margin: auto;
-  height: 500px;
 }
 
 .services-title {
@@ -246,11 +245,15 @@ a{
 
 /* end sezione cmr */
 
+/* sezione colonne */
+
 .col{
-  width: calc((100% / 3) - 40px);
+  width: calc((100% / 3) - (40px / 3));
   float: left;
-  height: 300px;
-  background-color: lightgreen;
+}
+
+.col:not(:last-child){
+  margin-right: 20px;
 }
 
 .col img{
