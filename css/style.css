@@ -147,8 +147,37 @@ a{
 
 /* end sezione hero */
 
+/* divisore */
 .divisore{
   background-color: #afebe4;
   height: 85px;
   border-bottom: 3px solid black;
+}
+/* end divisore */
+
+/* sezione servizi */
+
+#services{
+  background-color: #f4f9fd;
+}
+
+.services-dim{
+  width: 75%;
+  margin: auto;
+  height: 500px;
+}
+
+.services-title {
+  padding-top: 60px;
+  width: 65%;
+  margin: auto;
+  text-align: center;
+}
+
+.services-title img{
+  width: 250px;
+}
+
+.services-title h2{
+  margin-bottom: 25px;
 }
