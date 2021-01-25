@@ -37,6 +37,8 @@ a{
 
 /* end bottoni */
 
+
+/* stile nav bar sup */
 .nav-sup{
   background-color: #f4f9fd;
   padding: 20px 0;
@@ -61,7 +63,7 @@ a{
   margin-right: 10px;
 }
 
-.nav-leng  a{
+.nav-leng a{
   border-left: 1px solid black;
   padding-left: 15px;;
 }
@@ -77,4 +79,31 @@ a{
 
 .nav-login li{
   margin-left: 20px;
+}
+
+/* end stile nav bar sup */
+
+/* stile nav bar inf */
+.nav-inf{
+  background-color: lightgreen;
+}
+
+.nav-logo{
+  display: inline-block;
+  width: 30%;
+  padding: 25px 0;
+}
+
+.nav-section{
+  display: inline-block;
+  width: 69%;
+  vertical-align: super;
+}
+
+.nav-section ul{
+  text-align: right;
+}
+
+.nav-section li{
+  margin-left: 15px;
 }
