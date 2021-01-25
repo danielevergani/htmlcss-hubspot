@@ -243,3 +243,16 @@ a{
 #services i{
   color: #f37559;
 }
+
+/* end sezione cmr */
+
+.col{
+  width: calc((100% / 3) - 40px);
+  float: left;
+  height: 300px;
+  background-color: lightgreen;
+}
+
+.col img{
+  width: 30%;
+}
