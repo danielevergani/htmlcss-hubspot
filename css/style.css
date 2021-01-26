@@ -317,3 +317,32 @@ nav{
   text-align: center;
   padding: 30px 0;
 }
+
+.block{
+  width: calc(100% / 4);
+  background-color: green;
+  text-align: center;
+}
+
+.block img{
+  padding-top: 10px;
+}
+
+.block-text{
+  margin-top: 10px;
+}
+
+h5{
+  display: inline-block;
+  font-size: 30px;
+}
+
+.block span{
+  font-size: 20px;
+  vertical-align: 3px;
+}
+
+.block p {
+  margin-top: 10px;
+  padding-bottom: 15px;
+}
