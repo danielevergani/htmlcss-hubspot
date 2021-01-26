@@ -402,3 +402,20 @@ h5{
 }
 
 /* end sezione partners */
+
+.start{
+  width: 45%;
+  float: left;
+}
+
+.start-img{
+  width: 55%;
+  height: 276px;
+  float: left;
+  text-align: center;
+}
+
+.start-img img{
+  max-width: 100%;
+  max-height: 100%;
+}
