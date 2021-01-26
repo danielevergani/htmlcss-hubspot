@@ -16,6 +16,11 @@ body{
   clear: both;
 }
 
+.container{
+  width: 75%;
+  margin: auto;
+}
+
 /* typo */
 
 h1{
@@ -413,6 +418,7 @@ h5{
   height: 276px;
   float: left;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .start-img img{
