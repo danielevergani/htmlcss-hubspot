@@ -355,3 +355,50 @@ h5{
 .row2-border-top{
   border-top: 1px solid white;
 }
+
+/* end sezione gradiente */
+
+/* sezione partners */
+
+.partners-start-dim{
+  width: 75%;
+  margin: auto;
+}
+
+.partners-division{
+  margin:30px 0;
+  padding: 0 40px;
+}
+
+.partners-number{
+  width: 20%;
+  display: inline-block;
+
+}
+
+.partners-number h2{
+  font-size: 30px;
+}
+
+.partners-famous{
+  width: 79%;
+  float: right;
+  padding-top: 10px;
+}
+
+.row3{
+  text-align: right;
+}
+
+.brand-logo{
+  width: 100px;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.brand-logo img{
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+/* end sezione partners */
