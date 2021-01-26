@@ -465,8 +465,12 @@ footer{
 }
 
 .utility i {
-  padding: 10px 0;
+  padding: 15px 0;
   padding-right: 23px;
+}
+
+.navigation-logo-privacy{
+  padding-top: 20px;
 }
 
 .navigation-language{
@@ -478,4 +482,19 @@ footer{
 .navigation-language a{
   margin-right: 15px;
   color: #dadee0;
+}
+
+.navigation-logo{
+  display: inline-block;
+  width: 30%;
+}
+
+.navigation-logo p{
+  margin: 0 0;
+}
+
+.navigation-privacy{
+  width: 50%;
+  text-align: right;
+  float: right;
 }
