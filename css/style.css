@@ -342,7 +342,7 @@ nav{
   margin-top: 10px;
 }
 
-h5{
+.block-text h5{
   display: inline-block;
   font-size: 30px;
 }
@@ -408,6 +408,8 @@ h5{
 
 /* end sezione partners */
 
+/* sezione start */
+
 .start{
   width: 45%;
   float: left;
@@ -424,4 +426,56 @@ h5{
 .start-img img{
   max-width: 100%;
   max-height: 100%;
+}
+
+/* end sezione start */
+
+/* footer */
+
+footer{
+  background-color: #32495b;
+  color: white;
+}
+
+.navigation-support{
+  padding: 30px;
+}
+
+.row4{
+  margin-bottom: 50px;
+}
+
+.utility{
+  width: calc(100% / 4);
+  float: left;
+}
+
+.utility p{
+  line-height: 10px;
+  color: #dadee0;
+}
+
+.footer-btn{
+  display: inline-block;
+  color: #32495b;
+  background-color: #dadee0;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px 8px;
+}
+
+.utility i {
+  padding: 10px 0;
+  padding-right: 23px;
+}
+
+.navigation-language{
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #dadee0;
+}
+
+.navigation-language a{
+  margin-right: 15px;
+  color: #dadee0;
 }
