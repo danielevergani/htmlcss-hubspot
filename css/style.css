@@ -40,6 +40,7 @@ h3{
 p{
   line-height: 20px;
   margin: 20px 0;
+  font-weight: 600;
 }
 
 /* typo */
@@ -47,6 +48,7 @@ p{
 a{
   text-decoration: none;
   color: inherit;
+  font-weight: 600;
 }
 
 /* bottoni */
@@ -168,13 +170,7 @@ header ul{
 
 /* end sezione hero */
 
-/* divisore */
-.divisore{
-  background-color: #afebe4;
-  height: 85px;
-  border-bottom: 3px solid black;
-}
-/* end divisore */
+
 
 /* sezione servizi */
 
@@ -269,7 +265,7 @@ header ul{
   float: left;
   background-color: white;
   text-align: center;
-  padding: 15px 33px;
+  padding: 20px 33px;
   box-shadow:  2px  2px 5px #dedede,
   -2px -2px 5px #dedede,
   2px -2px 5px #dedede,
@@ -345,11 +341,12 @@ nav{
 .block-text h5{
   display: inline-block;
   font-size: 30px;
+  vertical-align: middle;
 }
 
 .block span{
   font-size: 20px;
-  vertical-align: 3px;
+  vertical-align: middle;
 }
 
 .block p {
