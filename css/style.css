@@ -83,10 +83,6 @@ a{
   border-bottom: 1px solid black;
 }
 
-.nav-dim{
-  width: 75%;
-  margin: auto;
-}
 
 header li{
   display: inline-block;
@@ -158,11 +154,6 @@ header ul{
   background-position: 100% 28%;
 }
 
-.hero-dim{
-  width: 75%;
-  margin: auto;
-}
-
 .hero-title{
   width: 50%;
   padding-top: 40px;
@@ -194,10 +185,6 @@ header ul{
   background-color: #f4f9fd;
 }
 
-.services-dim{
-  width: 75%;
-  margin: auto;
-}
 
 .services-title {
   padding-top: 60px;
@@ -326,10 +313,6 @@ nav{
   padding: 60px 0;
 }
 
-.gradient-dim{
-  width: 75%;
-  margin: auto;
-}
 
 .gradient-title{
   text-align: center;
@@ -487,15 +470,17 @@ footer{
   padding-right: 23px;
 }
 
-.navigation-logo-privacy{
-  padding-top: 20px;
-}
 
 .navigation-language{
   text-align: center;
   padding-bottom: 15px;
   border-bottom: 1px solid #dadee0;
 }
+
+.navigation-logo-privacy{
+  padding-top: 20px;
+}
+
 
 .navigation-language a{
   margin-right: 15px;
