@@ -147,8 +147,8 @@ header ul{
   background-color: #fdf1ef;
   background-image: url('../img/jumbotron.png');
   background-repeat: no-repeat;
-  background-size: 110%;
-  background-position: 100% -2px;
+  /* background-size: contain%; */
+  background-position: 100% 28%;
 }
 
 .hero-dim{
@@ -159,6 +159,7 @@ header ul{
 .hero-title{
   width: 50%;
   padding-top: 40px;
+  height: 100%
 }
 
 .hero-title .btn{
@@ -172,6 +173,16 @@ header ul{
 /* sezione servizi */
 
 /* titolo servizi */
+
+#services::before{
+  content: "";
+  display: block;
+  height:87px;
+  background-color: #afebe4;
+  border-top: 3px solid #33475b;
+  border-bottom: 3px solid #33475b;
+}
+
 #services{
   background-color: #f4f9fd;
 }
