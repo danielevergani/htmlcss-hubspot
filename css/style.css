@@ -6,7 +6,7 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   color: #33475b;
 }
 
@@ -24,16 +24,16 @@ body{
 /* typo */
 
 h1{
-  font-size: 34px;
+  font-size: 37px;
   margin-bottom: 20px;
 }
 
 h2{
-  font-size: 25px;
+  font-size: 27px;
 }
 
 h3{
-  font-size: 20px;
+  font-size: 23px;
   margin-bottom: 20px;
 }
 
@@ -117,6 +117,14 @@ header ul{
   width: 69%;
   display: inline-block;
   text-align: right;
+}
+
+.nav-login li{
+  padding-left: 15px;
+}
+
+#search{
+  color: #37a5bd;
 }
 
 /* end stile nav bar sup */
@@ -265,11 +273,11 @@ header ul{
 /* sezione colonne */
 .row{
   margin-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 .col{
-  width: calc((100% / 3) - (40px / 3));
+  width: calc((100% / 3) - (80px / 3));
   float: left;
   background-color: white;
   text-align: center;
@@ -286,7 +294,7 @@ nav{
 }
 
 .col:not(:last-child){
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .col img{
@@ -370,9 +378,8 @@ nav{
 
 /* sezione partners */
 
-.partners-start-dim{
-  width: 75%;
-  margin: auto;
+#partners-start{
+  margin-bottom: 30px;
 }
 
 .partners-division{
@@ -453,6 +460,10 @@ footer{
 .utility{
   width: calc(100% / 4);
   float: left;
+}
+
+.utility h5 {
+  font-size: 16px;
 }
 
 .utility p{
