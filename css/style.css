@@ -103,23 +103,20 @@ header ul{
   display: inline-block;
 }
 
-.nav-leng li{
-  margin-right: 10px;
-}
 
 .nav-leng a{
-  border-left: 1px solid black;
   padding-left: 15px;;
+}
+
+#english{
+  border-right: 1px solid #33475b;
+  padding-right: 5px;
 }
 
 .nav-login{
   width: 69%;
   display: inline-block;
   text-align: right;
-}
-
-.nav-login li{
-  margin-left: 20px;
 }
 
 /* end stile nav bar sup */
