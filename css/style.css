@@ -432,16 +432,24 @@ footer{
 }
 
 .navigation-support{
-  padding: 30px 0;
+  padding-top: 30px;
 }
 
 .row4{
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .utility{
   width: calc(100% / 4);
   float: left;
+}
+
+.utility li{
+  list-style: none;
+}
+
+#social li{
+  display: inline-block;
 }
 
 .utility h5 {
@@ -474,8 +482,13 @@ footer{
   border-bottom: 1px solid #dadee0;
 }
 
+.navigation-language li{
+  list-style: none;
+  display: inline-block;
+}
+
 .navigation-logo-privacy{
-  padding-top: 20px;
+  padding: 20px 0;
 }
 
 
